@@ -1,0 +1,22 @@
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.exe.config
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.exe
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.pdb
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.AssemblyReference.cache
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.Form1.resources
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.Properties.Resources.resources
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.GenerateResource.cache
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.CoreCompileInputs.cache
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaF.FB3CF23C.Up2Date
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.exe
+C:\Users\António Rebelo\Downloads\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.pdb
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.exe.config
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.exe
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\bin\Debug\desenhaFaces_v1.pdb
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.AssemblyReference.cache
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.Form1.resources
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.Properties.Resources.resources
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.GenerateResource.cache
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.csproj.CoreCompileInputs.cache
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaF.FB3CF23C.Up2Date
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.exe
+C:\Users\Utilizador\Documents\CG\CG_28837_29683_28899\desenhaFaces_v1\obj\Debug\desenhaFaces_v1.pdb
