@@ -77,6 +77,7 @@
             this.pb_desenhoParalela = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.ResetT_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.tb_transx)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_transy)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tb_transz)).BeginInit();
@@ -130,7 +131,7 @@
             this.tb_transz.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.tb_transz.Location = new System.Drawing.Point(38, 112);
             this.tb_transz.Margin = new System.Windows.Forms.Padding(2);
-            this.tb_transz.Maximum = 0;
+            this.tb_transz.Maximum = 50;
             this.tb_transz.Minimum = -50;
             this.tb_transz.Name = "tb_transz";
             this.tb_transz.Size = new System.Drawing.Size(139, 45);
@@ -199,7 +200,7 @@
             // 
             this.CorStroke_pb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CorStroke_pb.BackColor = System.Drawing.Color.Blue;
-            this.CorStroke_pb.Location = new System.Drawing.Point(887, 422);
+            this.CorStroke_pb.Location = new System.Drawing.Point(887, 444);
             this.CorStroke_pb.Name = "CorStroke_pb";
             this.CorStroke_pb.Size = new System.Drawing.Size(47, 44);
             this.CorStroke_pb.TabIndex = 6;
@@ -209,7 +210,7 @@
             // 
             this.CorStroke_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CorStroke_btn.BackColor = System.Drawing.Color.White;
-            this.CorStroke_btn.Location = new System.Drawing.Point(747, 422);
+            this.CorStroke_btn.Location = new System.Drawing.Point(747, 444);
             this.CorStroke_btn.Name = "CorStroke_btn";
             this.CorStroke_btn.Size = new System.Drawing.Size(124, 44);
             this.CorStroke_btn.TabIndex = 7;
@@ -221,7 +222,7 @@
             // 
             this.CorFill_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CorFill_btn.BackColor = System.Drawing.Color.White;
-            this.CorFill_btn.Location = new System.Drawing.Point(747, 478);
+            this.CorFill_btn.Location = new System.Drawing.Point(747, 500);
             this.CorFill_btn.Name = "CorFill_btn";
             this.CorFill_btn.Size = new System.Drawing.Size(124, 44);
             this.CorFill_btn.TabIndex = 9;
@@ -233,7 +234,7 @@
             // 
             this.CorFill_pb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CorFill_pb.BackColor = System.Drawing.Color.OrangeRed;
-            this.CorFill_pb.Location = new System.Drawing.Point(887, 478);
+            this.CorFill_pb.Location = new System.Drawing.Point(887, 500);
             this.CorFill_pb.Name = "CorFill_pb";
             this.CorFill_pb.Size = new System.Drawing.Size(47, 44);
             this.CorFill_pb.TabIndex = 8;
@@ -305,28 +306,28 @@
             // abrirToolStripMenuItem
             // 
             this.abrirToolStripMenuItem.Name = "abrirToolStripMenuItem";
-            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.abrirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirToolStripMenuItem.Text = "Abrir TXT";
             this.abrirToolStripMenuItem.Click += new System.EventHandler(this.abrirToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
             // resetToolStripMenuItem
             // 
             this.resetToolStripMenuItem.Name = "resetToolStripMenuItem";
-            this.resetToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.resetToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.resetToolStripMenuItem.Text = "Reiniciar";
             this.resetToolStripMenuItem.Click += new System.EventHandler(this.resetToolStripMenuItem_Click);
             // 
             // abrirOBJToolStripMenuItem
             // 
             this.abrirOBJToolStripMenuItem.Name = "abrirOBJToolStripMenuItem";
-            this.abrirOBJToolStripMenuItem.Size = new System.Drawing.Size(123, 22);
+            this.abrirOBJToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.abrirOBJToolStripMenuItem.Text = "Abrir OBJ";
             this.abrirOBJToolStripMenuItem.Click += new System.EventHandler(this.abrirOBJToolStripMenuItem_Click);
             // 
@@ -630,6 +631,18 @@
             this.label13.TabIndex = 27;
             this.label13.Text = "Projeção Paralela";
             // 
+            // ResetT_btn
+            // 
+            this.ResetT_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.ResetT_btn.BackColor = System.Drawing.Color.White;
+            this.ResetT_btn.Location = new System.Drawing.Point(747, 385);
+            this.ResetT_btn.Name = "ResetT_btn";
+            this.ResetT_btn.Size = new System.Drawing.Size(187, 26);
+            this.ResetT_btn.TabIndex = 29;
+            this.ResetT_btn.Text = "Reiniciar Transformações";
+            this.ResetT_btn.UseVisualStyleBackColor = false;
+            this.ResetT_btn.Click += new System.EventHandler(this.ResetT_btn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -637,6 +650,7 @@
             this.BackColor = System.Drawing.Color.LightGray;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(949, 600);
+            this.Controls.Add(this.ResetT_btn);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.pb_desenhoParalela);
@@ -742,6 +756,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ToolStripMenuItem desenvolvedoresToolStripMenuItem;
+        private System.Windows.Forms.Button ResetT_btn;
     }
 }
 

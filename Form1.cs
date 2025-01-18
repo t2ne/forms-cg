@@ -513,5 +513,28 @@ namespace desenhaFaces_v1
 
             MessageBox.Show(desenvolvedores, "Informações dos Desenvolvedores", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        // Renicia as transformações, tanto a Translação como a Rotação e a Camera
+        private void ResetT_btn_Click(object sender, EventArgs e)
+        {
+            tb_transx.Value = 0;
+            tb_transy.Value = 0;
+            tb_transz.Value = 0;
+
+            Rotx_tb.Value = 0;
+            Roty_tb.Value = 0;
+            Rotz_tb.Value = 0;
+
+            disCamara.Value = 600; 
+
+            SetCores();
+
+            if (obj != null)
+            {
+                this.pb_desenho.Invalidate(); 
+                this.pb_desenhoParalela.Invalidate(); 
+            }
+        }
+
     }
 }
